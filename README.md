@@ -1,4 +1,4 @@
-# Cisco router commands
+# Cisco commands
 
 ---
 ---
