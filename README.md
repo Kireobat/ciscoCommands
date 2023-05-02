@@ -33,7 +33,7 @@
 |interface range [interface] 0/[start]-[end]| Lets you configure a range of ports at the same time |
 | interface [interface]/[number] | Enters interface configuration mode for the specified fast ethernet interface.|
 |show vlan | It shows all the ports and which Vlans they have. |
-| switchport access vlan [number] | Sets interfaces to a vlan |
+| switchport access vlan [number] | Assigns this/these port/s to a VLAN |
 
 
 ## Basic Configuration Commands
