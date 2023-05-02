@@ -20,12 +20,20 @@
 
 ## Cheat Sheet
 
+### Terms
+
+- [interface] an interface. examples of this are Ethernet, FastEthernet and GigabitEthernet
+- [start/end] beginning and end of a range of numbers
+- [number] just a number.
+
 | Command | Purpose |
 | ----------- | ----------- |
 | enable | Logs you into enable mode, which is also known as user exec mode or privileged mode |
 | configure terminal | Logs you into configuration mode | 
-|interface range FastEthernet 0/start-end| Lets you configure a range of ports at the same time |
+|interface range [interface] 0/[start]-[end]| Lets you configure a range of ports at the same time |
+| interface [interface]/[number] | Enters interface configuration mode for the specified fast ethernet interface.|
 |show vlan | It shows all the ports and which Vlans they have. |
+| switchport access vlan [number] | Sets interfaces to a vlan |
 
 
 ## Basic Configuration Commands
