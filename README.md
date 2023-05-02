@@ -18,6 +18,15 @@
 ---
 
 
+## Cheat Sheet
+
+| Command | Purpose |
+| ----------- | ----------- |
+| enable | Logs you into enable mode, which is also known as user exec mode or privileged mode |
+| configure terminal | Logs you into configuration mode | 
+|interface range FastEthernet 0/start-end| Lets you configure a range of ports at the same time |
+|show vlan | It shows all the ports and which Vlans they have. |
+
 
 ## Basic Configuration Commands
 
